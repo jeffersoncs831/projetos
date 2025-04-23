@@ -1,0 +1,96 @@
+
+<DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link rel= "stylesheet" href="style.css">
+    <script src="Funções.js"></script>
+</head>
+<body>
+  <div class="particulas"></div>
+  
+  <nav class="navegacao">
+  <ul class="menu">
+    <li>
+      <a href="#inicio" class="menu-link">Inicio</a>
+    </li>
+    <li>
+      <a href="#sobre" class="menu-link">Sobre</a>
+    </li>
+    <li>
+      <a href="#projetos" class="menu-link">projetos</a>
+    </li>
+    <li>
+      <a href="#contato" class="menu-link">Contato</a>
+    </li>
+  </ul>
+  </nav>
+  <main id="inicio" class="cabecalho">
+      <img src="./perfil1.jpg" alt="foto de Jefferson" class="foto-perfil">
+      <h1>Jefferson Batista</h1>
+      <P class="cabecalho-sub-titulo">Desenvolvedor Fullstack</P>
+
+    
+  </main>
+  <section id="sobre" class="sobre">
+    <h2 class="sobre-titulo">Sobre Mim</h2>
+    <div class="sobre-caixa">
+      <p class="sobre-paragrafo">
+    Olá! Meu nome é Jefferson, sou um profissional apaixonado por transformar ideias em projetos criativos e soluções práticas. Ao longo da minha trajetória, desenvolvi habilidades que combinam técnica, sensibilidade e comprometimento, sempre buscando entregar resultados que superem as expectativas.
+
+    Tenho como marca registrada a dedicação aos detalhes, o olhar estratégico e a constante busca por inovação. Acredito que cada projeto é uma oportunidade única de aprendizado e evolução, e por isso, coloco empenho em cada etapa do processo — da concepção à entrega.
+
+    Seja no desenvolvimento de soluções, no design ou em projetos colaborativos, meu foco é sempre unir criatividade e eficiência para construir algo que gere valor e impacto positivo.
+
+    Estou em constante evolução, sempre aberto a novos desafios e conexões. Seja bem-vindo ao meu portfólio!
+  
+      </p>
+    </div>
+  </section>
+   
+  <section id="projetos" class="projetos">
+    <h2 class="projetos-titulos">Meus projetos</h2>
+    <div class="projetos-caixa">
+      
+      <div class="projetos-card">
+        <img src="./1.jpg" alt="1" class="projetos-imagem"><div>
+           <h3 class="info-projetos">projeto1</h3>
+          <p class="paragrafo-projetos">uma pagina</p>
+        </div>
+      </div>
+       <div class="projetos-card">
+        <img src="./2.jpg" alt="2" class="projetos-imagem">
+        <div>
+          <h3 class="info-projetos">projeto2</h3>
+          <p class="paragrafo-projetos">uma </p>
+        </div>
+      </div>
+  
+       <div class="projetos-card">
+        <img src="./3.jpg" alt="3" class="projetos-imagem">
+        <div>
+          <h3 class="info-projetos">projeto3</h3>
+          <p class="paragrafo-projetos">informaçao sobre o projeto</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="contato" class="contato">
+    <h2 class="contato-titulo">Entre em Contato</h2>
+    <form class="formulario-contato" id="formulario" onsubmit="Enviarwhats(event)">
+      <div class="grupo-form">
+      <input placeholder="Nome" class="campo-form" id="nome">
+      </div>
+      
+      <div class="grupo-form">
+      <textarea class="campo-form" placeholder="Digite sua mensagem" rows="4" id="mensagem"></textarea>
+      </div>
+      <button type="submit" class="botao-form">Enviar whatsapp</button>
+    </form>
+  </section>
+  
+</body>
+</html>
